@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bird : MonoBehaviour
 {
     Vector3 InitialPos;
+    public float defend = 20;
 
     private void Start()
     {
@@ -20,7 +21,19 @@ public class Bird : MonoBehaviour
     private void OnMouseUp()
     {
         Vector3 vectorForce = InitialPos - transform.position;
-        GetComponent<Rigidbody2D>().AddForce(vectorForce * 250);
+        GetComponent<Rigidbody2D>().AddForce(vectorForce * 350);
         GetComponent<Rigidbody2D>().gravityScale = 1;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.relativeVelocity.magnitude > defend)
+        {
+            Destroy(gameObject, 0.7f);
+        }
+        else
+        {
+            defend -= collision.relativeVelocity.magnitude;
+        }
     }
 }
