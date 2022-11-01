@@ -4,36 +4,45 @@ using UnityEngine;
 
 public class Bird : MonoBehaviour
 {
-    Vector3 InitialPos;
-    public float defend = 20;
+    float speed;
+    public Ani1 animationSource;
+    public bool isFly;
+    bool callAnimation;
 
-    private void Start()
+    void Start()
     {
-        InitialPos = transform.position;
+        isFly = false;
+        Instantiate(animationSource, transform.position, Quaternion.identity);
+        callAnimation = false;
     }
 
-    private void OnMouseDrag()
+    void Update()
     {
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        transform.position = new Vector3(mousePos.x, mousePos.y);
+        speed = GetComponent<Rigidbody2D>().velocity.magnitude;
+        if ((speed < 1.2) && (isFly == true))
+        {
+/*            gameObject.GetComponent<Rigidbody2D>().velocity = new Vector3(0, 0, 0);*/
+            Destroy(gameObject, 2);
+            if (callAnimation == false)
+            {
+                Invoke("DoAnimation", 1.7f);
+                callAnimation=true;
+            }
+        }
     }
 
-    private void OnMouseUp()
+    void DoAnimation()
     {
-        Vector3 vectorForce = InitialPos - transform.position;
-        GetComponent<Rigidbody2D>().AddForce(vectorForce * 350);
-        GetComponent<Rigidbody2D>().gravityScale = 1;
+        Instantiate(animationSource, transform.position, Quaternion.identity);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.relativeVelocity.magnitude > defend)
+        
+        if (collision.gameObject.tag == "LimitWall")
         {
-            Destroy(gameObject, 0.7f);
-        }
-        else
-        {
-            defend -= collision.relativeVelocity.magnitude;
+            Destroy(gameObject, 2f);
+            Invoke("DoAnimation", 1.7f);
         }
     }
 }

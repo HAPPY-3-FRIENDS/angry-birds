@@ -1,0 +1,619 @@
+fileFormatVersion: 2
+guid: 6ba3e45323342a14cb685eecd044e74e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_0"
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1808
+        width: 1496
+        height: 2144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03cec1b6ae9c4f45863d31200504f52
+      internalID: -1502708656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_1"
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3529
+        width: 435
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83ef24f8b0c7014c88d2ed52e996b77
+      internalID: 1994018564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_2"
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 3529
+        width: 437
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ff67d4399f080468f3dc581c912383
+      internalID: 1821767993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_3"
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 3529
+        width: 437
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e468c7d938e9af41ba34b7e943ac2dd
+      internalID: -720024165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_4"
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3030
+        width: 435
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71face59f2364fc42b31afcf793bb53e
+      internalID: -1432462119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_5"
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 3040
+        width: 437
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298f86d9b3733f249b6a4d214f909045
+      internalID: -629834208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_6"
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 3040
+        width: 437
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63db5eb57a19d0478d7f0bed544e494
+      internalID: -2109851246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_7"
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2523
+        width: 435
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637e43612b0b6c940879abb7776c8b2b
+      internalID: -1360705509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_8"
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 2532
+        width: 437
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f3349d868528448aa30d9475d0ebae
+      internalID: -1423530699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_9"
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 2532
+        width: 437
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5ae38765aca2441bda890ceb9c67ab
+      internalID: -698330500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_10"
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1999
+        width: 435
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325b9579040b736419de3d1d73af3f15
+      internalID: -1894297355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_11"
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 2009
+        width: 437
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8280e848554fa9b4cb77cc241fa9017c
+      internalID: 405614000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_12"
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 2009
+        width: 437
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30a29cb1114ca44d92bf606a0dfd97a
+      internalID: -1759638056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_13"
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 87
+        width: 1496
+        height: 1642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65070ca1bf06ae34c8e078ae2b35b426
+      internalID: -373244741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_14"
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1499
+        width: 435
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55378f5f57dcf24eb3b85a713650c1b
+      internalID: -904630133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_15"
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 1509
+        width: 437
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12730a8f10f85eb4ca88b31a74a35d79
+      internalID: 1492872727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_16"
+      rect:
+        serializedVersion: 2
+        x: 3284
+        y: 1509
+        width: 437
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86678810cdfc873489bc1c3068640fc2
+      internalID: -1582426134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_17"
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1001
+        width: 435
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4365463b72f73464db8ead9662f6eb55
+      internalID: -895319564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_18"
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 1019
+        width: 830
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be71b4adf626bcd44b278acf167ac73a
+      internalID: -784787131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_19"
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 671
+        width: 1815
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42de82aaf24ba9c47a78ee0617cb8dc9
+      internalID: 1440398793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_20"
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 487
+        width: 1791
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03da41dae667a1c458e785c130e0c446
+      internalID: 1244204964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_21"
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 284
+        width: 1799
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ad88b16092a964ba4b2f425292c53d
+      internalID: 333516201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_12": -1759638056
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_8": -1423530699
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_19": 1440398793
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_4": -1432462119
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_9": -698330500
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_18": -784787131
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_20": 1244204964
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_6": -2109851246
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_3": -720024165
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_10": -1894297355
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_11": 405614000
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_13": -373244741
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_17": -895319564
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_5": -629834208
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_7": -1360705509
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_16": -1582426134
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_14": -904630133
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_21": 333516201
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_0": -1502708656
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_1": 1994018564
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_2": 1821767993
+      "\u2014Pngtree\u2014cartoon game interface achievement popup_5351035_15": 1492872727
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
